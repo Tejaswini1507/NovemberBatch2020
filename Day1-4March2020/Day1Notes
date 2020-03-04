@@ -1,0 +1,51 @@
+
+Typescript
+-open-source programming language from Mircosoft at 2012
+-typed superset of js
+-It was designed by Anders Hejlsberg (designer of C#) at Microsoft
+-Its coding style is used like C++
+-The ECMAScript specification is a standardized specification of a scripting language
+
+ECMAScript standard + ECMAScript version6 + Additional features=Typescript
+
+Advantages
+-Static Typing
+(static typed languages are those in which type checking is done at compile-time)
+-Type Inference
+-Find Compile Time Error
+-Supports Object Oriented Programming
+
+Disadvantages
+-Takes a long time to compile the code.
+-Browser Don't understand Typescript
+
+Difference between TS & JS
+TS
+-It supports strongly typed
+-Extension .ts
+-Browser doesn't understand the TS need to convert the code into JS
+-Support Object Oriented Programming
+
+JS
+-Doesn't support strongly typed
+-Extension .js
+-Directly run on browser
+-Doesn't support Object Oriented Programming
+
+Installation Steps
+1 Installed Node
+2 npm install -g typescript
+  -npm = Node Package Manager
+  -g   = globally
+3 Installed IDE Visual studio Code
+
+Do this on cmd
+node --version    - Its Gives the Information about Node Version
+
+npm  --version    - Its Gives the Information about npm(Node Package manager) Version
+
+tsc  --version    - Its Gives the Information about typescript Version	
+
+
+
+
