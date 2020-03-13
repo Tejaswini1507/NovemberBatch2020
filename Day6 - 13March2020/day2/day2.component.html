@@ -1,0 +1,33 @@
+
+<!-- String Interpolation -->
+<h1>{{name}}</h1>
+<h2>{{testData}}</h2>
+
+<!-- Property Binding -->
+<!-- <input type="text" [value]="name1"> -->
+
+<!-- Difference between str interpolation and property binding -->
+<!-- <input type="text" value="{{name1}}" hidden="{{ishidden}}"> -->
+<input type="text" [value]="name1" [hidden]="ishidden"> 
+
+
+<!-- Event Binding -->
+<button (click)="onClick()">Display</button>
+
+<p>{{displayMsg}}</p>
+
+
+<!-- using $event -->
+<button (click)="onShow($event)">Show Message</button>
+
+<p>{{showMsg}}</p>
+
+<hr>
+<h3 [style.color]="'skyblue'">Style Binding</h3>
+<h3 [style.color]="mycolor">CSK</h3>
+<h3 [style.color]="isError ? 'red': 'green'">GO CORONA!!!!!!</h3>
+
+<hr>
+ <!--ngStyle to apply multiple style at a one time  -->
+<h1 [ngStyle]="myStyle">Rushikesh, Yogesh</h1>
+
