@@ -1,0 +1,75 @@
+***************************************************Angular 7************************************************************
+
+***************Introduction***********
+1.It is used to develop web application
+2.SPA- Single Page Application -->
+--It has one body and one head
+--does not load every time.
+example-Gmail,FaceBook,Ganna.com,GitHub
+--Increase performance.
+3.index.html -->head file.
+4.MPA - Multiple Page Application. -->
+ReactJs,VueJs
+example-Amazon
+
+*************History Of Angular***********
+--combines module,declaration,services with the web.
+
+******************Version******************
+AngularJS--> 1.x.x
+1-major version
+x- minor version
+x-patch 
+
+
+1.AngularJS--
+--Oct 2010. 
+
+2.Version2
+--September 14, 2016.
+
+3.version4 
+--On 13 December 2016 Angular 4 was announced, skipping 3 to avoid a confusion due to the 
+  misalignment of the router package's version
+--Angular 4 March 23, 2017
+
+**Features in version 4.3
+--Introducing HttpClient, a smaller, easier to use, and more powerful library for making HTTP Requests.
+--New router life cycle events.
+
+4.version5
+--Angular 5  November 1, 2017.
+--Key improvements in Angular 5 include improvements related to Material Design.
+--Angular Material comprises a range of components which implement common interaction 
+  patterns according to the Material Design specification.  
+  
+5.version6
+Angular 6 may, 2018
+- It was a major relaese which provides some features like: ng update, ng add, Angular Elements, Angular Material 
++ CDK Components, Angular Material Starter Components, CLI Workspaces
+- Animations Performance Improvements, and RxJS v6.
+
+6.Angular 7 October 18, 2018
+- Updates regarding Application Performance
+Angular Material & CDK
+- Virtual Scrolling
+- Improved Accessibility of Selects
+- Supports Content Projection using web standard for custom elements
+- Dependency updates regarding TypeScript 3.1, RxJS 6.3, Node 10
+
+7. Angular 8 May 28 2019
+
+8.Angular 9 February 7 2020
+
+
+**********************Angular Architecture************************
+--view-->to display end user info
+--component-->to process the data , to write busibess logic
+
+
+
+1.component-->require 4 files
+1.HTML File -->to display view on browser
+2.CSS File -->Styling purpose
+3.TS File -->Business Logic
+4.Spec.ts File -->Testing File

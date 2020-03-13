@@ -1,0 +1,72 @@
+Installation step for angular
+1.open CMD first and Close other application if any open (e.g vscode, notepad etc)
+-Node js
+-angular
+-vscode
+
+1.node -v or node --version
+2.npm -v or npm --version
+
+
+To install angular 
+npm install -g @angular/cli@7.3.*
+
+3. ng --version
+
+********************************************
+if any error occur then use as below Command
+npm cache clear --force
+npm cache verify
+********************************************
+
+Directory
+Folder Structure
+Frontend
+		-TypeScript
+		-Angular 
+1.open angular folder and after that open cmd
+
+ng new hello-world
+Note-(Here hello- world is project name) 
+after hitting above command you will get below questions
+Which you like to add angular routing? Yes or y 
+and do hit enter key
+
+Which stylesheet format would you like? 
+do hit enerer key
+
+
+2.after that do cd hello-world
+3.and run the project
+to run the project you need to hit this command
+ng serve -o 
+or
+ng serve --open
+
+after successful Creation its open browser automatically ---> http://localhost:4200/
+
+
+
+
+
+
+***if angular is already installed and want to take latest version
+npm uninstall -g angular-cli
+npm cache clean or npm cache verify #(if npm > 5)
+npm install -g @angular/cli@7.3.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
